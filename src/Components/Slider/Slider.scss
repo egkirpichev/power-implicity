@@ -10,6 +10,11 @@
 		line-height: 83px;
 		text-align: center;
 		color: #F2F4F7;
+
+		@media (max-width: 750px) {
+			font-size: 50px;
+			line-height: 50px;
+		}
 	}
 
 	&__description {
@@ -19,6 +24,11 @@
 		line-height: 21px;
 		text-align: center;
 		color: #F2F4F7;
+
+		@media (max-width: 750px) {
+			font-size: 14px;
+			line-height: 18px;
+		}
 	}
 
 	&__button {
