@@ -4,42 +4,42 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(1, auto);
-}
 
-.navbar__links {
-	margin: 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	list-style: none;
-}
-
-.navbar__link {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	color: #A0A3A7;
-	cursor: pointer;
-
-	&:hover {
-		color: #FFFFFF;
+	&__links {
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style: none;
 	}
-}
 
-.navbar__download-btn {
-	justify-self: end;
-	max-width: 160px;
-	padding: 16px 24px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 16px;
-	color: #24282E;
-	border: none;
-	border-radius: 999px;
-	cursor: pointer;
+	&__link {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		color: #A0A3A7;
+		cursor: pointer;
 	
-	&:hover {
-		background: #A0A3A7;
+		&:hover {
+			color: #FFFFFF;
+		}
+	}
+
+	&__download-btn {
+		justify-self: end;
+		max-width: 160px;
+		padding: 16px 24px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		color: #24282E;
+		border: none;
+		border-radius: 999px;
+		cursor: pointer;
+		
+		&:hover {
+			background: #A0A3A7;
+		}
 	}
 }
