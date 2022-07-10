@@ -1,16 +1,17 @@
-import React from 'react';
-import './Navbar.scss';
+import "./Navbar.scss";
 
-export const Navbar = () => {
+const Navbar = () => {
 	return (
 		<nav className='navbar'>
-			<a className='navbar__logo'></a>
+			<img src="./logo.png" alt="navbar__logo" />
 			<ul className='navbar__links'>
-				<li className='navbar__link navbar__link--hover'></li>
-				<li className='navbar__link navbar__link--hover'></li>
-				<li className='navbar__link navbar__link--hover'></li>
+				<li className='navbar__link navbar__link--hover'>Features</li>
+				<li className='navbar__link navbar__link--hover'>Partners</li>
+				<li className='navbar__link navbar__link--hover'>Stories</li>
 			</ul>
-			<button type='button' className='navbar__download-btn'></button>
+			<button type='button' className='navbar__download-btn'>Download for free</button>
 		</nav>
 	)
 }
+
+export {Navbar}
