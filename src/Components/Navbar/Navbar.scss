@@ -5,12 +5,24 @@
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(1, auto);
 
+	&__logo {
+		@media (max-width: 750px) {
+			justify-self: center;
+		}
+	}
+	
 	&__links {
 		margin: 0;
+		padding: 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		list-style: none;
+
+		@media (max-width: 750px) {
+			flex-direction: column;
+			gap: 5px;
+		}
 	}
 
 	&__link {
