@@ -8,6 +8,7 @@
 
 ### Page deployment link
 
+https://egkirpichev.github.io/react-power-implicity/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
