@@ -2,7 +2,7 @@
 
 ## Power Simplicity
 
-[product-screenshot]
+<img width="942" alt="image" src="https://user-images.githubusercontent.com/99477750/178340419-5c6eadb6-f73b-4f42-a3e5-c378079c8509.png">
 
 ### Simple layout built with
 
