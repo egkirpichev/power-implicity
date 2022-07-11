@@ -1,12 +1,14 @@
-# Power Simplicity
+<div id="top"></div>
 
-### Simple layout buit with
+## Power Simplicity
+
+### Simple layout built with
 
 * [![React][React.js]][React-url]
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+### Page deployment link
 
-
-## Page deployment link
-
-
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
