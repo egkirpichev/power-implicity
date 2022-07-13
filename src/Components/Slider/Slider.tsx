@@ -18,4 +18,4 @@ const Slider = () => {
 }
 
 
-export {Slider}
+export { Slider }
