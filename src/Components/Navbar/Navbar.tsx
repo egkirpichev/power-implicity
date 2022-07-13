@@ -1,4 +1,4 @@
-import "./Navbar.scss";
+import "./navbar.scss";
 import logo from "../../assets/logo.svg"
 
 const Navbar = () => {
